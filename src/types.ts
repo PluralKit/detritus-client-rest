@@ -233,6 +233,7 @@ export namespace RequestTypes {
     name: string,
     reason?: string,
     type?: number,
+    invitable?: boolean,
   }
 
   export interface CreateDm {

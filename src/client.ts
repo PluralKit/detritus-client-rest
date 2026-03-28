@@ -971,6 +971,7 @@ export class Client extends EventSpewer {
       auto_archive_duration: options.autoArchiveDuration,
       name: options.name,
       type: options.type,
+      invitable: options.invitable,
     };
     const params = {channelId};
     if (this.clientsideChecks) {
